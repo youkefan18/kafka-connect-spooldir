@@ -60,6 +60,13 @@
         <system>github</system>
         <url>https://github.com/jcustenborder/kafka-connect-spooldir/issues</url>
     </issueManagement>
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>http://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.github.jcustenborder.kafka.connect</groupId>
